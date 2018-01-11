@@ -1,0 +1,70 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Eclipse Skis - Freeride Skis</title>
+        <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="JS/script.js"></script>
+    </head>
+    
+    <body onload="init()">
+        <div class="nav">
+            <label for="toggle">&#9776;</label>
+            <input type="checkbox" id="toggle"/>
+            
+            <div class="menu">
+                <a id="logo" href="index.html"></a>
+                <a href="index.html">Home</a>
+                <a href="store.html">Store</a>
+                <a href="team.html">Team</a>
+                <a href="custom.html"><span>Custom</span></a>
+            </div>
+        </div>
+        <div>
+            <h1>Get creative</h1>
+        </div>
+        <div id="intro">
+            <h4>Custom Design</h4>
+            <p>Get those creative juices flowing! Use the canvas below to create a custom design for your skis!</p>
+            <hr class="introdivider">
+        <div class="custom_container">
+            <canvas id="can" width="400" height="400" style="position:absolute;top:90%;left:10%;border:2px solid;"></canvas>
+        <div style="position:absolute;top:82%;left:23%;">Choose Color</div>
+        <div style="position:absolute;top:85%;left:25%;width:10px;height:10px;background:green;" id="green" onclick="color(this)"></div>
+        <div style="position:absolute;top:85%;left:27%;width:10px;height:10px;background:blue;" id="blue" onclick="color(this)"></div>
+        <div style="position:absolute;top:85%;left:29%;width:10px;height:10px;background:red;" id="red" onclick="color(this)"></div>
+        <div style="position:absolute;top:87%;left:25%;width:10px;height:10px;background:yellow;" id="yellow" onclick="color(this)"></div>
+        <div style="position:absolute;top:87%;left:27%;width:10px;height:10px;background:orange;" id="orange" onclick="color(this)"></div>
+        <div style="position:absolute;top:87%;left:29%;width:10px;height:10px;background:black;" id="black" onclick="color(this)"></div>
+        <div style="position:absolute;top:82%;left:43%;">Eraser</div>
+        <div style="position:absolute;top:85%;left:45%;width:15px;height:15px;background:white;border:2px solid;" id="white" onclick="color(this)"></div>
+        <img id="canvasimg" style="position:absolute;top:90%;left:52%;" style="display:none;">
+        <input type="button" value="save" id="btn" size="30" onclick="save()" style="position:absolute;top:145%;left:10%;">
+        <input type="button" value="clear" id="clr" size="23" onclick="erase()" style="position:absolute;top:145%;left:15%;">
+        </div>
+        </div>
+        <div>
+            
+        </div>
+
+        <footer>
+            <div class="footnav">
+                <ul>
+                <li class="li_foot" id="foot_store"><a href="store.html">Store</a></li>
+                <li class="li_foot"><a href="team.html">Team</a></li>
+                <li class="li_foot" id="foot_custom"><a href="custom.html">Custom</a></li>
+            </ul>
+            </div>
+            <div class="social_container">
+                <div class="social_icon"><a href="https://www.facebook.com"><img class="icon_img" src="assets/images/social_media/if_1_Media_social_website_facebook_2657542.png" alt="Facebook"></a></div>
+                <div class="social_icon"><a href="https://www.twitter.com"><img class="icon_img" src="assets/images/social_media/if_12_Media_social_website_Twitter_2657545.png" alt="Twitter"></a></div>
+                <div class="social_icon"><a href="https://www.instagram.com"><img class="icon_img" src="assets/images/social_media/if_2_Media_social_website_instagram_2657553.png" alt="instagram"></a>
+                </div>
+            </div>
+            <div id="copyright">
+            <p>©Copyright 2018, Eclipse Skis</p>
+            </div>
+        </footer>
+    </body>
+</html>

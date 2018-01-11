@@ -1,0 +1,519 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    background: url(../assets/images/Mountains23.jpg) no-repeat fixed center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-weight: lighter;
+        
+}
+
+html {
+    font-family: sans-serif;
+}
+
+.nav {
+    border-bottom: 1px solid #EAEAEB;
+    text-align: right;
+    height: 4.4rem;
+    line-height: 4.4rem;
+}
+
+.menu {
+    background-color: ghostwhite;
+}
+
+.menu a {
+    text-decoration: none;
+    color: gray;
+    margin: 0 10px;
+    line-height: 70px;
+}
+
+span {
+    color: skyblue;
+}
+
+label {
+    margin: 0;
+    font-size: 26px;
+    line-height: 70px;
+    display: none;
+    width: 26px;
+    float: right;
+    background-color: ghostwhite;
+}
+
+#toggle {
+    display: none;
+    background-color: ghostwhite;
+}
+
+.menu a:hover {
+    color: burlywood;
+    transition-duration: 0.35s;
+}
+
+#logo
+{
+    float: left;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 90%;
+    background-color: rgba(222,184,135, 0.3);
+    box-shadow: 0.0.3rem 0.5rem deepskyblue;
+    padding: 1rem;
+}
+
+@media only screen and (max-width: 500px) 
+{
+    label {
+        width: 100%;
+        display: block;
+        cursor: pointer;
+        background-color: ghostwhite;
+    }
+    .menu {
+        text-align: center;
+        width: 100%;
+        display: none;
+    }
+    .menu a {
+        display: block;
+        border-bottom: 1px solid #EAEAEB;
+        margin: 0;
+    }
+    #toggle:checked + .menu {
+        display: block;
+    }
+    #logo {
+        display: none;
+    }
+    #toggle
+    {
+        background-color: ghostwhite;
+    }
+}
+
+h1
+{
+    text-align: center;
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+    color: ghostwhite;
+    text-decoration: none;
+    font-weight: lighter;
+}
+
+h2, p
+{
+    color: slategray;
+    text-align: center;
+    font-weight: lighter;
+}
+h2
+{
+    padding-bottom: 1.5rem;
+    font-size: 3rem
+}
+
+#introtext
+{
+    padding-top: 1.5rem;
+    padding: 1.5rem;
+}
+#intro
+{
+    background-color: ghostwhite;
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+    text-align: center;
+}
+
+.introdivider
+{
+    width: 7rem;
+    
+}
+
+#video
+{
+    width: 100%;
+    padding-bottom: rem;
+}
+
+h3
+{
+    color: slategray;
+    text-align: center;
+    font-size: 1.5rem;
+    margin: 1rem;
+    padding-top: 1.5rem;
+}
+
+#shoplink
+{
+    text-decoration: none;
+    color: slategray;
+    font-size: 2rem;
+    text-align: center;
+    font-weight: lighter;
+}
+
+#team_pics
+{
+    background-color: ghostwhite;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.footnav {
+    width: 100%;
+    background-color: ghostwhite;
+    text-decoration: none;
+    text-align: center;
+    font-weight: lighter;
+    font-size: 1.2rem;
+    color: gray;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    word-spacing: 4rem;
+}
+
+.li_foot
+{
+    list-style-type: none;
+    display: inline-block;
+    text-align: center;
+    margin: 0;
+}
+
+#foot_custom
+{
+    transform: translateX(-1.4rem)
+}
+
+#foot_store
+{
+    transform: translateX(0.445rem)
+}
+
+.icon_img
+{
+    width: 3rem;
+    height: 3rem;
+}
+
+.social_icon
+{
+    display: inline-block;
+    width: 100px;
+    height: auto;
+}
+
+.social_icon:hover
+{
+    opacity: 0.6;
+    transition-duration: 0.35;
+}
+
+.social_container
+{
+    width: 100%;
+    text-align: center;
+    background-color: ghostwhite;
+    padding: 0.5rem;
+}
+
+#copyright
+{
+    background-color: ghostwhite;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    text-align: center;
+}
+
+footer
+{
+    border-top: 1px solid black;
+}
+
+.footnav a
+{
+    text-decoration: none;
+    color: slategray;
+}
+
+.footnav a:hover {
+    color: burlywood;
+    transition-duration: 0.35s;
+    text-decoration: none;
+}
+
+#team_sep
+{
+    width: 15rem;
+}
+
+h4
+{
+    font-size: 2rem;
+    color: slategray;
+    font-weight: lighter;
+    text-align: center;
+    
+}
+
+.team_container
+{
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 6% 2%;
+}
+
+.team_grid
+{
+    margin: 20px 0 0 0;
+    padding: 0;
+    list-style: none;
+    display: block;
+    text-align: center;
+    width: 100%;
+}
+
+.team_grid:after, .team_grid:before
+{
+    content: '';
+    display: table;
+}
+
+.team_grid li
+{
+    width: 15rem;
+    height: 15rem;
+    display: inline-block;
+    margin: 1.25rem;
+}
+
+.team_box
+{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    cursor: pointer;
+    border-radius: 10px;
+    -webkit-transition: 0.4s ease-in-out, -webkit-transform 0.4s ease-in-out;
+    -moz-transition: 0.4s ease-in-out, -moz-transform 0.4s ease-in-out;
+    transition: 0.4s ease-in-out, transform 0.4s ease-in-out;
+}
+
+.team_box:hover
+{
+    transform:scale(1.05);
+}
+
+.team_box_img1
+{
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.1)), url(../assets/images/thall.jpg);
+}
+
+.team_box_img2
+{
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.1)), url(../assets/images/spetit.jpg);
+}
+
+.team_box_img3
+{
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.1)), url(../assets/images/hharlaut.jpg);
+}
+
+.team_info
+{
+    position: absolute;
+    width: inherit;
+    height: inherit;
+}
+
+.team_info h5
+{
+    font-weight: lighter;
+    color: ghostwhite;
+    margin: 0 30px;
+    padding: 100px 0 0 0;
+    line-height: 1.5;
+    font-size: 1.5rem;
+}
+
+.team_info p
+{
+    font-weight: lighter;
+    color: ghostwhite;
+    padding-left: 6px;
+}
+
+#map
+{
+    height: 25rem;
+    width: 100%;
+    background-color: ghostwhite;
+}
+
+.img_container
+{
+    margin: 0 auto;
+    margin-top: 20px;
+    position: relative;
+    width: 80%;
+    height: auto;
+    padding-bottom: 40%;
+    background-color: ghostwhite;
+    border: solid slategray;
+}
+
+.slide_img
+{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.slide_img img
+{
+    width: 100%;
+    height: 100%;
+}
+
+#img1, #img2, #img3 {
+    display: none;
+}
+
+.previous, .next {
+    width: 12%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    background: rgba(88,88,88,0.4);
+    z-index: 99;
+    cursor: pointer;
+}
+
+.previous
+{
+    right: 0;
+    display: block;
+}
+
+.next
+{
+    left: 0;
+    display: block;
+}
+
+.pic_nav
+{
+    width: 100%;
+    height: 1rem;
+    bottom: 12%;
+    position: absolute;
+    text-align: center;
+    z-index: 99;
+}
+
+.dots
+{
+    top: 1rem;
+    width: 0.8rem;
+    height: 0.8rem;
+    margin: 0 1rem;
+    position: relative;
+    border-radius: 50%;
+    display: inline-block;
+    background: rgba(0,0,0,0.8);
+    right: 8.5rem;
+}
+
+.slide_img
+{
+    z-index: -1;
+}
+
+#img1:checked ~ #one,
+#img2:checked ~ #two,
+#img3:checked ~ #three {
+    z-index: 9;
+}
+
+#img1:checked ~ .pic_nav #dot1,
+#img2:checked ~ .pic_nav #dot2,
+#img3:checked ~ .pic_nav #dot3 {
+    background: ghostwhite;
+}
+
+.team_box_img4
+{
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.1)), url(../assets/images/freeride.jpg);
+}
+
+.team_box_img5
+{
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.1)), url(../assets/images/freestyle.jpg);
+}
+
+.team_box_img6
+{
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.1)), url(../assets/images/powder.jpg);
+}
+
+#ski1
+{
+    height: 240px;
+    width: 240px;
+    transform: translateY(40px)
+}
+
+#leftbox
+{
+    width: 80%;
+    height: 25rem;
+    margin: 5px;
+    border: 3px solid slategray;
+    float: right;
+    transform: translate(-3.5rem);
+}
+
+#rightbox
+{
+    width: 20rem;
+    height: 20rem;
+    margin: 5px;
+    border: 3px solid darkslategray;
+    display: inline-block;
+}
+
+#rightbox1
+{
+    width: 20rem;
+    height: 20rem;
+    margin: 5px;
+    border: 3px solid darkslategray;
+    float: left;
+}
+
+.store_container
+{
+    padding-bottom: 28rem;
+}
+
+.custom_container
+{
+    padding-top: 20rem;
+    padding-bottom: 20rem;
+}
+
+#result
+{
+    text-align: center;
+}

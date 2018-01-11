@@ -1,0 +1,68 @@
+<html>
+    <head>
+        <title>Eclipse Skis - Freeride Skis</title>
+        <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="JS/script.js"></script>
+    </head>
+    
+    <body>
+        <div class="nav">
+            <label for="toggle">&#9776;</label>
+            <input type="checkbox" id="toggle"/>
+            
+            <div class="menu">
+                <a id="logo" href="index.html"></a>
+                <a href="index.html">Home</a>
+                <a href="store.html">Store</a>
+                <a href="team.html">Team</a>
+                <a href="custom.html"><span>Custom</span></a>
+            </div>
+        </div>
+        <div>
+            <h1>Gear up.</h1>
+        </div>
+        <div id="intro">
+            <h2>Freeride Store</h2>
+            <hr class="introdivider">
+        <div class="store_container">
+            <div class="ski section">
+                <section id="rightbox" ondrop="drop(event)" ondragover="allowDrop(event)">ECLIPSE BLOODMOON
+                <img id="ski1" src="assets/images/freeride2.png" draggable="true" ondragstart="drag(event)" ondragover="allowDrop(event)">
+                </section>
+                <section id="rightbox1" ondrop="drop(event)" ondragover="allowDrop(event)">ECLIPSE ERUPTION
+                <img id="ski1" src="assets/images/freeride3.png" draggable="true" ondragstart="drag(event)" ondragover="allowDrop(event)">
+                </section>
+            </div>
+            <div class="basket_section">
+                <section id="leftbox" ondrop="drop(event)" ondragover="allowDrop(event)"><h4>Your Basket</h4></section>
+            </div>
+        </div>
+            <button id="checkout" onclick="clickAlert()">CHECKOUT</button>
+            <script>funtion clickAlert() {alert("Go to checkout?");}</script>
+        </div>
+        <div>
+            
+        </div>
+
+        <footer>
+            <div class="footnav">
+                <ul>
+                <li class="li_foot" id="foot_store"><a href="store.html">Store</a></li>
+                <li class="li_foot"><a href="team.html">Team</a></li>
+                <li class="li_foot" id="foot_custom"><a href="custom.html">Custom</a></li>
+            </ul>
+            </div>
+            <div class="social_container">
+                <div class="social_icon"><a href="https://www.facebook.com"><img class="icon_img" src="assets/images/social_media/if_1_Media_social_website_facebook_2657542.png" alt="Facebook"></a></div>
+                <div class="social_icon"><a href="https://www.twitter.com"><img class="icon_img" src="assets/images/social_media/if_12_Media_social_website_Twitter_2657545.png" alt="Twitter"></a></div>
+                <div class="social_icon"><a href="https://www.instagram.com"><img class="icon_img" src="assets/images/social_media/if_2_Media_social_website_instagram_2657553.png" alt="instagram"></a>
+                </div>
+            </div>
+            <div id="copyright">
+            <p>©Copyright 2018, Eclipse Skis</p>
+            </div>
+        </footer>
+    </body>
+</html>
