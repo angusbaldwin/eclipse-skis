@@ -93,10 +93,10 @@ var canvas, ctx, flag = false,
                 x = "black";
                 break;
             case "white":
-                x = "white";
+                x = "ghostwhite";
                 break;
         }
-        if (x == "white") y = 14;
+        if (x == "ghostwhite") y = 14;
         else y = 2;
     
     }
